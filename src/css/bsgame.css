@@ -1,0 +1,113 @@
+.wapper__bsgame-container{
+    font-family: 'Baloo Tammudu 2';
+}
+.info-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info-user > p{
+    font-size: large;
+    font-weight: 700;
+}
+.info-user > p > span {
+   color: darkred;
+}
+.dices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dices > span {
+    font-size: xx-large;
+    margin: 20px;
+}
+.dices > .dice {
+    padding: 10px 30px 10px 30px;
+    color: deepskyblue;
+    background-color: rgba(170, 233, 238, 0.418);
+    border-radius: 10px;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: lightskyblue;
+    margin-bottom: 10px;
+}
+.table{
+    border:3px dashed teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: red;
+    flex-direction: column;
+}
+.table_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table__small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-right: 20px;
+  border:3px dotted red;
+  width: 300px;
+  flex-direction: column;
+}
+.table__small > span {
+    font-size: 16px;
+    color: darksalmon;
+}
+.table__big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border:3px dotted red;
+    width: 300px;
+    flex-direction: column;
+}
+.table__big > span {
+    font-size: 16px;
+    color: darksalmon;
+}
+.table_amout_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+@media only screen and (max-width: 768px){
+    .table__big{
+        width: 250px;
+    }
+    .table__small{
+        width: 250px;
+    }
+  }
+@media only screen and (max-width: 480px){
+    .table__big{
+        width: 150px;
+    }
+    .table__small{
+        width: 150px;
+    }
+}
+
+.current-time{
+    display: flex;
+    justify-content: center;
+}
+
+.current-time > p{
+    color: mediumturquoise;
+    font-size: 24px;
+}

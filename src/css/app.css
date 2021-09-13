@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap');
+.wapper {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .wapper {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .wapper {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .wapper {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .wapper {
+      max-width: 1140px;
+    }
+  }

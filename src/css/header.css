@@ -1,0 +1,28 @@
+.header{
+    background-color: #8E05FA;
+    font-size: 36px;
+    font-family: 'Baloo Tammudu 2';
+    height: 92px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+.header__nav > ul{
+    list-style-type: none;
+}
+.header__nav > ul > li{
+    display: inline-block;
+    margin-right: 24px;
+}
+.header__nav > ul > li > a{
+    color: #ffff;
+    text-decoration: none;
+}
+.header__nav > ul > li > a:hover{
+    color: #E35610;
+    border-bottom: 5px solid #ffff;
+}
+.header__nav__surplus {
+    margin-left: auto;
+}
